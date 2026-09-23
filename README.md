@@ -1,2 +1,1 @@
-# Trading MVP
-streamlit run app.py
+Deploy to Streamlit Cloud. Portfolio simulator included.

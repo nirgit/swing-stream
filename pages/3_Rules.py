@@ -1,8 +1,3 @@
 import streamlit as st
-st.title("Rules")
-st.markdown("""### Checklist
-- Above long-term trend
-- Near highs
-- Volume expansion
-- Risk at least 1:2 reward/risk
-""")
+st.title('Rules')
+st.write('Risk 1% per trade. Seek 2:1 reward/risk minimum.')
