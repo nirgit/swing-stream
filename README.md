@@ -1,3 +1,2 @@
-# Swing Trading Trainer
-
-Run: streamlit run app.py
+# Trading MVP
+streamlit run app.py
