@@ -1,4 +1,8 @@
 import streamlit as st,pandas as pd
+from core.session import init_session
+
+init_session()
+
 st.title('Statistics')
 tr=len(st.session_state.get('trades',[]))
 w=st.session_state.get('wins',0)
