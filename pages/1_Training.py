@@ -1,5 +1,8 @@
 import streamlit as st,pandas as pd,plotly.graph_objects as go
 from core.data import scenario
+from core.session import init_session
+
+init_session()
 
 def chart(df):
  fig=go.Figure(data=[go.Candlestick(x=df.index,open=df["Open"],high=df["High"],low=df["Low"],close=df["Close"])])
